@@ -15,7 +15,8 @@
 'author'    =>  _t('%s 发布的文章')
 ), '', ' - '); ?><?php $this->options->title(); if ($this->is('index') && $this->options->subTitle): ?> - <?php $this->options->subTitle(); endif; ?></title>
 <?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&antiSpam=&atom='); ?>
-<link rel="stylesheet" href="<?php cjUrl('style.min.css') ?>" />
+<link rel="stylesheet" href="<?php cjUrl('style.css') ?>" />
+<link rel="stylesheet" href="<?php cjUrl('itp.css') ?>" />
 </head>
 <body <?php if ($this->options->HeadFixed == 'able'): ?>class="head-fixed"<?php endif; ?>>
 <!--[if lt IE 9]>
